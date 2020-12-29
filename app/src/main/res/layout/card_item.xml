@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <ImageView
+            android:id="@+id/iv_pelanggan"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_add_photo"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID pelanggan"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama pelanggan"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat pelanggan"
+            android:textSize="15sp"
+            android:maxLines="2"/>
+        <TextView
+            android:id="@+id/tv_telepon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telepon pelanggan"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
